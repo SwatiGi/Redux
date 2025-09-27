@@ -1,0 +1,37 @@
+.input-div {
+    padding: 10px;
+    background: transparent;
+
+    color: black;
+}
+
+.input-div>input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.input-div>label {
+    text-align: center;
+}
+
+form {
+    width: 350px;
+    padding: 10px;
+    margin: auto;
+    background: white;
+    border-radius: 5px;
+}
+
+.login {
+    width: 95%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    color: black;
+    font-size: 20px;
+    background: purple;
+    border: none;
+    border-radius: 10px;
+}
