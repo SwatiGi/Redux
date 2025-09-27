@@ -38,7 +38,16 @@ const counterReducer = (state={count:0},action) => {
         return {
             count: state.count - 1,
         }
-    } else {
+    }else if (action.type == "incrementBy2") {
+        return {
+            count: state.count + 2,
+        }
+    }else if (action.type == "decrementBy2") {
+        return {
+            count: state.count - 2,
+        }
+    }
+    else {
         return state;
     }
 }

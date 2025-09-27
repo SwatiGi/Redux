@@ -6,7 +6,7 @@ import {Provider} from "react-redux"
 import store from './store/index.js'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {console.log("check", store)}
+   
     <Provider store={store}>
    
     <App />
